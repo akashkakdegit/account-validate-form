@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import HeaderTab from "./component/headerTab/HeaderTab";
+import SidebarTabs from "./component/sidebarTabs/SidebarTabs";
 
-function App() {
+const App = () => {
+  const [tabIndex, setTabIndex] = useState(1);
+  const [backTabIndex, setBackTabIndex] = useState(1);
+  console.log(tabIndex);
+  console.log(backTabIndex);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeaderTab tabIndex={tabIndex} setBackTabIndex={setBackTabIndex} />
+      <SidebarTabs backTabIndex={backTabIndex} setTabIndex={setTabIndex} />
+    </>
   );
-}
+};
 
 export default App;

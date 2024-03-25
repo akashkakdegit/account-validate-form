@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.label-1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #404d61;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #404d61;
+  margin-top: 32px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: 1px solid #e1e3e6;
+  border-radius: 8px;
+  height: 22px;
+  margin-top: 16px;
+  padding: 5px 16px;
+}
+.input:focus {
+  outline: none;
+  border: 1px solid #a9a7a7;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.small-input-container {
+  display: flex;
+  gap: 8px;
+}
+.small-input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: 1px solid #e1e3e6;
+  border-radius: 8px;
+  width: 182px;
+  height: 30px;
+  margin-top: 16px;
+  padding-left: 16px;
+}
+.small-input:focus {
+  outline: none;
+  border: 1px solid #a9a7a7;
+}
+.button {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #4a3aff;
+  height: 34px;
+  margin-top: 32px;
+  border-radius: 6px;
+  border-style: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  width: 410px;
+}
+.right-arrow {
+  position: absolute;
+}
+.overview-container {
+  display: flex;
+  gap: 35px;
+}
+.overview-sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.error-msg {
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 5px;
+}
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.form-submitted {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
+}
+.success-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+.small-button {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #4a3aff;
+  height: 30px;
+  margin-top: 30px;
+  border-radius: 6px;
+  border-style: none;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  cursor: pointer;
+  width: 115px;
 }

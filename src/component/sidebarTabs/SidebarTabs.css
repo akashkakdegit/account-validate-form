@@ -1,0 +1,51 @@
+.tab-container {
+  display: flex;
+  margin-top: 48px;
+  margin-left: 113px;
+}
+.serial-number {
+  display: flex;
+  flex-direction: column;
+  width: 33px;
+  height: fit-content;
+  background-color: #d9d9d970;
+  border-radius: 109px;
+  align-items: center;
+  gap: 31px;
+}
+.numbers {
+  display: flex;
+  align-items: center;
+}
+.tab-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  margin-right: 73px;
+  gap: 35px;
+}
+.business-tabs-serial-num {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.main-tabs {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+.business-tabs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.sub-tabs {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 8px;
+  color: #737373;
+  cursor: pointer;
+}
