@@ -144,7 +144,38 @@
   }
 }
 
-@media (min-width: 321px) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 425px) {
+  .form-container {
+    margin-top: 30px;
+    width: 340px;
+  }
+  .label {
+    margin-top: 15px;
+  }
+  .input {
+    margin-top: 10px;
+    width: 340px;
+  }
+  .small-input {
+    width: 163px;
+  }
+  .button {
+    width: 372px;
+    margin-bottom: 32px;
+  }
+  .overview-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .overview-sub-container {
+    gap: 0px;
+  }
+  .submit-button-container {
+    display: block;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
   .form-container {
     margin-top: 30px;
     width: 340px;
