@@ -4,7 +4,7 @@ import { HiArrowLeft } from "react-icons/hi";
 
 const HeaderTab = ({ setBackTabIndex, tabIndex }) => {
   const handleBack = () => {
-    if (tabIndex) setBackTabIndex((tabIndex = tabIndex - 1));
+    if (tabIndex>1) setBackTabIndex((tabIndex = tabIndex - 1));
   };
   return (
     <>

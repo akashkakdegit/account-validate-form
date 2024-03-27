@@ -121,3 +121,56 @@
   cursor: pointer;
   width: 115px;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .form-container {
+    width: 322px;
+  }
+  .small-input {
+    width: 137px;
+  }
+  .button {
+    width: 322px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .form-container,
+  .button {
+    width: 400px;
+  }
+  .overview-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+  .form-container {
+    margin-top: 30px;
+    width: 340px;
+  }
+  .label {
+    margin-top: 15px;
+  }
+  .input {
+    margin-top: 10px;
+    width: 300px;
+  }
+  .small-input {
+    width: 143px;
+  }
+  .button {
+    width: 332px;
+    margin-bottom: 32px;
+  }
+  .overview-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .overview-sub-container {
+    gap: 0px;
+  }
+  .submit-button-container {
+    display: block;
+  }
+}

@@ -83,7 +83,6 @@ const SidebarTabs = ({ setTabIndex, backTabIndex }) => {
             </span>
           </div>
           <span className="numbers">
-            {" "}
             {validateBankDetails ? (
               <FaCircleCheck size={"28px"} color="#4ADE80" />
             ) : (
@@ -119,16 +118,13 @@ const SidebarTabs = ({ setTabIndex, backTabIndex }) => {
               Business Structure
             </text>
             <text onClick={() => handleTabSelect(2)} className="sub-tabs">
-              {" "}
               Business Representative
             </text>
             <text onClick={() => handleTabSelect(3)} className="sub-tabs">
-              {" "}
               Business Details
             </text>
           </div>
           <text onClick={() => handleTabSelect(4)} className="main-tabs">
-            {" "}
             Bank Details
           </text>
           <text onClick={() => handleTabSelect(5)} className="main-tabs">

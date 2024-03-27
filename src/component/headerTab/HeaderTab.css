@@ -39,3 +39,26 @@
   border: 1px solid #eceeeb;
   border-color: #eceeeb;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-tab-container {
+    margin: 38px auto 24px 45px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .header-tab-container {
+    margin: 50px auto 24px 50px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+  .header-tab-container {
+    margin: 25px auto 20px 15px;
+  }
+  .back-button {
+    height: 30px;
+    width: 60px;
+    padding: 2px;
+  }
+}

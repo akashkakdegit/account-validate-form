@@ -49,3 +49,44 @@
   color: #737373;
   cursor: pointer;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .tab-container {
+    margin-left: 50px;
+  }
+}
+.tab-list {
+  margin-right: 35px;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .tab-container {
+    margin: 38px auto 24px 50px;
+  }
+  .tab-list {
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+  .tab-container {
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .serial-number {
+    flex-direction: row;
+    background-color: #fff;
+  }
+  .business-tabs-serial-num {
+    flex-direction: row;
+  }
+  .tab-list {
+    margin-left: 10px;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  .business-tabs-list {
+    gap: 5px;
+  }
+}

@@ -79,7 +79,7 @@ const Overview = ({
               <span className="error-msg">
                 {!validateTwoStepAuthentication
                   ? "Please complete two step verification and continue..."
-                  : null}{" "}
+                  : null}
               </span>
             </div>
           </div>
@@ -94,7 +94,6 @@ const Overview = ({
           className="form-submitted"
           style={{ display: newFormHide ? "none" : "" }}
         >
-          {" "}
           <FaCircleCheck size={"40px"} color="green" />
           <text className="success-text"> Form submitted successfully</text>
           <button className="small-button" onClick={handleNew}>
