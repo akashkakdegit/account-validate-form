@@ -134,7 +134,7 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .form-container,
   .button {
     width: 400px;
@@ -144,7 +144,7 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 430px) {
   .form-container {
     margin-top: 30px;
     width: 340px;

@@ -46,13 +46,13 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .header-tab-container {
     margin: 50px auto 24px 50px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 425px) {
+@media (min-width: 321px) and (max-width: 430px) {
   .header-tab-container {
     margin: 25px auto 20px 15px;
   }
