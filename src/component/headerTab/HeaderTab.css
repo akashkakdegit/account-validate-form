@@ -12,6 +12,10 @@
   border: 1px solid #f8f8f8;
   cursor: pointer;
 }
+.back-button:focus {
+  outline: none;
+  border: 1px solid #a9a7a7;
+}
 
 .black-arrow-icon {
   color: #757d8a;
